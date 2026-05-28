@@ -26,7 +26,7 @@ const profile = {
   email: "amirhosein.ansari79@gmail.com",
   location: "Tehran, Iran",
   linkedin: "https://www.linkedin.com/in/amir-hossein-ansari-b4bba5241",
-  scholar: "https://scholar.google.com/citations?hl=en&user=LjQ5PFYAAAAJ",
+  scholar: "https://scholar.google.com/citations?hl=en&user=TyUGU_AAAAAJ",
   github: "#",
   cv: "/Academic_CV_AmirHossein_Ansari.pdf",
   photo: "/main-personal.jpg",
