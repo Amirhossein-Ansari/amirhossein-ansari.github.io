@@ -470,9 +470,9 @@ export default function AcademicHomepage() {
             </div>
 
             <div>
-              <p className="inline-flex items-center gap-2 rounded-full border border-violet-400/30 bg-violet-500/10 px-3 py-1 text-xs text-violet-200 mb-3">
+              {/* <p className="inline-flex items-center gap-2 rounded-full border border-violet-400/30 bg-violet-500/10 px-3 py-1 text-xs text-violet-200 mb-3">
                 <Sparkles className="w-3.5 h-3.5" /> Academic Homepage
-              </p>
+              </p> */}
               <h1 className="text-3xl md:text-4xl font-black tracking-tight text-white mb-2 leading-tight">
                 {profile.name}
               </h1>
