@@ -546,18 +546,18 @@ export default function AcademicHomepage() {
           </div>
         </section>
         */}
-        <Section id="about" icon={BookOpen} title="About" eyebrow="Profile">
-          <Card>
-            <div className="space-y-5 text-slate-300 leading-8 text-base md:text-lg">
-              <p>
-                I am a computer engineering researcher specializing in embedded systems, cyber-physical systems, real-time systems, low-power design, and fault-tolerant computing. My research focuses on improving the reliability, energy efficiency, peak power behavior, and schedulability of multicore embedded systems under timing and fault constraints.
-              </p>
-              <div className="flex flex-wrap gap-2 pt-2">
-                {researchInterests.map((interest) => <Pill key={interest}>{interest}</Pill>)}
-              </div>
-            </div>
-          </Card>
-        </Section>
+<Section id="about" icon={BookOpen} title="About" eyebrow="Profile">
+  <Card>
+    <div className="space-y-5 text-slate-300 leading-8 text-base md:text-lg">
+      <p>
+        Amir Hossein Ansari received the M.Sc. degree in Computer Engineering from Sharif University of Technology (SUT), Tehran, Iran. He is currently a research member of the Embedded Systems Research Laboratory (ESRLab) and the Cyber-Physical Systems Laboratory (CPSLab) in the Department of Computer Engineering at SUT.         His research focuses on the design, optimization, and reliability improvement of energy-efficient embedded and cyber-physical systems. His work addresses power-aware and fault-tolerant computing, real-time scheduling, task mapping, and learning-assisted optimization for multicore and heterogeneous CPS platforms.
+      </p>
+      <div className="flex flex-wrap gap-2 pt-2">
+        {researchInterests.map((interest) => <Pill key={interest}>{interest}</Pill>)}
+      </div>
+    </div>
+  </Card>
+</Section>
 
         <Section id="education" icon={GraduationCap} title="Education" eyebrow="Academic Background">
           <div className="space-y-5">
