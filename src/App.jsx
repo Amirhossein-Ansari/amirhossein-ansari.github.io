@@ -20,7 +20,7 @@ import {
 const profile = {
   name: "Amir Hossein Ansari",
   title:
-    "M.Sc. in Computer Engineering | Embedded Systems and Fault-Tolerant Computing Researcher",
+    "M.Sc. in Computer Engineering | Embedded Systems and Cyber-Physical Systems Researcher",
   affiliation:
     "Researcher in power-aware and fault-tolerant techniques for multicore embedded systems, cyber-physical systems, real-time systems, and embedded machine learning.",
   email: "amirhosein.ansari79@gmail.com",
@@ -28,64 +28,48 @@ const profile = {
   linkedin: "https://www.linkedin.com/in/amir-hossein-ansari-b4bba5241",
   scholar: "https://scholar.google.com/citations?hl=en&user=TyUGU_AAAAAJ",
   github: "#",
-  cv: "./Academic_CV_AmirHossein_Ansari.pdf",
-  photo: "./main-personal.jpg",
+  cv: "/Academic_CV_AmirHossein_Ansari.pdf",
+  photo: "/main-personal.jpg",
 };
 
 const news = [
   {
-    date: "2026",
-    text: "Pilot: Power-Aware Hybrid Fault Tolerance in Multi-core Embedded Systems accepted/published in IEEE Transactions on Parallel and Distributed Systems.",
+    date: "April 2026",
+    text: "Paper (GLEAM) accepted at DATE 2026.",
   },
   {
-    date: "2026",
-    text: "HAMLET: Heterogeneous Adaptive Mapping and Low-Energy Task Scheduling for Multi-core Embedded Systems accepted/published in IEEE Internet of Things Journal.",
+    date: "March 2026",
+    text: "Paper (HAMLET) accepted at IEEE Internet of Things Journal.",
   },
   {
-    date: "2026",
-    text: "GLEAM accepted/published in the 2026 Design, Automation & Test in Europe Conference.",
+    date: "February 2026",
+    text: "Paper (Pilot) accepted at IEEE Transactions on Parallel and Distributed Systems.",
   },
   {
-    date: "2024",
-    text: "TAFT: Thermal-Aware Hybrid Fault Tolerant Technique for Multicore Embedded Systems published in IEEE Embedded Systems Letters.",
+    date: "Jan 2025",
+    text: "Paper accepted at IEEE Embedded Systems Letters.",
+  },
+  {
+    date: "Dec 2024",
+    text: "Graduated with M.Sc. in Computer Engineering from Sharif University of Technology.",
+  },
+  {
+    date: "May 2024",
+    text: "Paper (TAFT) accepted at IEEE Embedded Systems Letters.",
   },
 ];
+
 
 const researchInterests = [
   "Embedded Machine Learning",
-  "Fault-Tolerant System Design",
-  "Low-Power System Design",
   "Cyber-Physical Systems",
   "Real-Time Systems",
+  "Fault-Tolerant System Design",
+  "Low-Power System Design",
   "Internet of Things",
-  "Multicore Embedded Systems",
-  "Power-Aware Computing",
 ];
 
-const skills = {
-  "Programming Languages": ["C", "C++", "Python", "MATLAB", "LaTeX"],
-  "Hardware Description Languages": ["Verilog", "VHDL"],
-  "Hardware & Electronics": [
-    "STM32 Microcontrollers",
-    "AVR Microcontrollers",
-    "Arduino",
-    "PCB Design",
-    "Raspberry Pi",
-    "Proteus Design Suite",
-    "PSpice",
-    "Keil µVision",
-  ],
-  "Design & Simulation Tools": [
-    "Xilinx ISE",
-    "gem5",
-    "McPAT",
-    "HotSpot",
-    "ModelSim",
-    "Synopsys Design Compiler",
-    "SoC Encounter",
-  ],
-  "Operating Systems": ["Windows", "Linux"],
-};
+
 
 const education = [
   {
@@ -114,69 +98,110 @@ const education = [
   },
 ];
 
+const skills = {
+  "Programming Languages": ["C", "C++", "Python", "MATLAB", "LaTeX"],
+  "Hardware Description Languages": ["Verilog", "VHDL"],
+  "Hardware & Electronics": [
+    "STM32 Microcontrollers",
+    "AVR Microcontrollers",
+    "Arduino",
+    "PCB Design",
+    "Raspberry Pi",
+    "Proteus Design Suite",
+    "PSpice",
+    "Keil µVision",
+  ],
+  "Design & Simulation Tools": [
+    "Xilinx ISE",
+    "gem5",
+    "McPAT",
+    "HotSpot",
+    "ModelSim",
+    "Synopsys Design Compiler",
+    "SoC Encounter",
+  ],
+  "Operating Systems": ["Windows", "Linux"],
+};
+
 const researchExperience = [
   {
-    role: "Research Assistant",
-    org: "Embedded Systems Research Laboratory",
-    period: "Sep. 2022 – Present",
-    supervisor: "Supervisor: Dr. Alireza Ejlali",
-    // focus:
-    //   "Research Focus: Power-aware, thermal-aware, and fault-tolerant computing in multicore embedded systems.",
-    // bullets: [
-    //   "Conducted extensive full-system architectural simulations using gem5, McPAT, and HotSpot to evaluate system-level overheads and thermal constraints.",
-    //   "Developed and analyzed adaptive scheduling and task mapping frameworks for multi-core architectures to optimize energy efficiency and reliability.",
-    //   "Integrated machine learning techniques such as LSTM networks and genetic algorithms for real-time system optimization.",
-    // ],
-    // skills:
-    //   "Real-time scheduling, power-aware computing, hardware simulation, C/C++, Python, and multicore architectures.",
+    role: "Graduate Research Assistant",
+    org: "Sharif University of Technology",
+    lab: "Embedded Systems Research Laboratory (2022 – Present)",
+    bullets: [
+      "Conducted extensive full-system architectural simulations using gem5, McPAT, and HotSpot to evaluate system-level overheads and thermal constraints.",
+      "Developed and analyzed adaptive scheduling and task mapping frameworks for multi-core architectures to optimize energy efficiency and reliability.",
+      "Proposed power-aware, thermal-aware, and hybrid fault-tolerant techniques to improve multicore embedded systems.",
+      "Integrated machine learning techniques such as LSTM networks and reinforcement learning for real-time system optimization."
+    ]
   },
   {
-    role: "Research Assistant",
-    org: "Cyber-Physical Systems Laboratory",
-    period: "Dec. 2024 – Present",
-    supervisor: "Supervisor: Dr. Mohsen Ansari",
-    // focus:
-    //   "Research Focus: Dependable and real-time scheduling for cyber-physical systems.",
-    // bullets: [
-    //   "Working on real-time task offloading and scheduling policies in vehicular fog computing and distributed environments.",
-    //   "Analyzing Directed Acyclic Graphs for complex task dependencies in heterogeneous systems.",
-    // ],
-    // skills:
-    //   "Cyber-physical systems, vehicular fog computing, DAG scheduling, and distributed systems.",
+    role: "Graduate Research Assistant",
+    org: "Sharif University of Technology",
+    lab: "Cyber-Physical Systems Laboratory (2024 – Present)",
+    bullets: [
+      "Working on dependable, real-time task offloading, and scheduling policies in vehicular fog computing and distributed environments.",
+      "Analyzing Directed Acyclic Graphs (DAGs) for complex task dependencies and task mapping in heterogeneous systems.",
+      "Utilizing deep reinforcement learning algorithms to optimize edge computing."
+    ]
   },
+  {
+    role: "Graduate Teaching Assistant",
+    org: "Sharif University of Technology",
+    lab: "Department of Computer Engineering (2022 – 2026)",
+    bullets: [
+      "Low Power System Design (Graduate Course)",
+      "Fault-Tolerant System Design (Graduate Course)",
+      "Cyber-Physical Systems (Graduate Course)",
+      "System-on-Chip Design (Graduate Course)",
+      "Digital Systems Design & Embedded Systems",
+      "Real-Time Systems (Dr. Sepideh Safari)",
+      "Digital Systems Design Lab & Logic Circuits Lab (Instructor)"
+    ]
+  },
+  {
+    role: "Undergraduate Research Assistant",
+    org: "Shahed University",
+    lab: "Digital Systems and Embedded Systems Laboratory (2021 – 2022)",
+    bullets: [
+      "Implemented and evaluated an ARM Cortex-M1 Processor on FPGA for customized embedded system applications.",
+      "Developed pipeline optimization and low-latency interrupt handling configurations using Xilinx Vivado and Verilog/VHDL.",
+      "Designed and simulated RF amplifier circuits with PSpice."
+    ]
+  }
 ];
 
 const publications = [
-  {
-    title: "Pilot: Power-Aware Hybrid Fault Tolerance in Multi-core Embedded Systems",
-    authors:
-      "A. H. Ansari, M. Esnaashari, M. Ansari, S. Safari, A. Ejlali, and J. Henkel",
-    venue: "IEEE Transactions on Parallel and Distributed Systems (TPDS), 2026",
+    {
+    title:
+      "GLEAM: A Graph-Learning Enhanced Adaptive Metaheuristic for Power-Aware Scheduling on Heterogeneous Cyber-Physical Systems",
+    authors: "A. H. Ansari, M. Ansari, S. Safari, A. Ejlali, and J. Henkel",
+    venue: "Design, Automation & Test in Europe Conference (DATE), 2026",
   },
-  {
+    {
     title:
       "HAMLET: Heterogeneous Adaptive Mapping and Low-Energy Task Scheduling for Multi-core Embedded Systems",
     authors: "A. H. Ansari, M. Ansari, A. Ejlali, and J. Henkel",
     venue: "IEEE Internet of Things Journal, 2026",
   },
   {
+    title: "Pilot: Power-Aware Hybrid Fault Tolerance in Multi-core Embedded Systems",
+    authors:
+      "A. H. Ansari, M. Esnaashari, M. Ansari, S. Safari, A. Ejlali, and J. Henkel",
+    venue: "IEEE Transactions on Parallel and Distributed Systems (TPDS), 2026",
+  },
+    {
     title:
-      "GLEAM: A Graph-Learning Enhanced Adaptive Metaheuristic for Power-Aware Scheduling on Heterogeneous Cyber-Physical Systems",
-    authors: "A. H. Ansari, M. Ansari, S. Safari, A. Ejlali, and J. Henkel",
-    venue: "Design, Automation & Test in Europe Conference (DATE), 2026",
+      "A Two-State Energy-Efficient Reliability-Aware Strategy in Fault-Tolerant Embedded Systems",
+    authors:
+      "A. M. Rasouli, A. H. Ansari, M. Esnaashari, S. Safari, and M. Ansari",
+    venue: "IEEE Embedded Systems Letters, 2025",
   },
   {
     title:
       "TAFT: Thermal-Aware Hybrid Fault Tolerant Technique for Multicore Embedded Systems",
     authors: "A. H. Ansari, M. Ansari, and A. Ejlali",
     venue: "IEEE Embedded Systems Letters, 2024",
-  },
-  {
-    title:
-      "A Two-State Energy-Efficient Reliability-Aware Strategy in Fault-Tolerant Embedded Systems",
-    authors:
-      "A. M. Rasouli, A. H. Ansari, M. Esnaashari, S. Safari, and M. Ansari",
-    venue: "IEEE Embedded Systems Letters, 2025",
   },
 ];
 
@@ -192,34 +217,34 @@ const publications = [
 //   },
 // ];
 
-const professionalServices = [
-  {
-    title: "Reviewer — Journals",
-    items: ["IEEE Internet of Things Journal", "IEEE Open Journal of The Computer Society"],
-  },
-  {
-    title: "Sub-Reviewer — Journals",
-    items: [
-      "IEEE Transactions on Parallel and Distributed Systems",
-      "IEEE Transactions on Computers",
-      "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
-      "IEEE Transactions on Sustainable Computing",
-      "IEEE Embedded Systems Letters",
-      "ACM Transactions on Design Automation of Electronic Systems",
-      "ACM Transactions on Embedded Computing Systems",
-      "ACM Transactions on Sensor Networks",
-    ],
-  },
-  {
-    title: "Sub-Reviewer — Conferences",
-    items: [
-      "Euromicro Digital System Design Conference (DSD 2024)",
-      "Asia and South Pacific Design Automation Conference (ASP-DAC 2024, ASP-DAC 2025)",
-      "5th CPSSI International Symposium on Cyber-Physical Systems (CPSAT 2024)",
-      "IEEE 14th International Symposium on Industrial Embedded Systems (SIES 2024)",
-    ],
-  },
-];
+// const professionalServices = [
+//   {
+//     title: "Reviewer — Journals",
+//     items: ["IEEE Internet of Things Journal", "IEEE Open Journal of The Computer Society"],
+//   },
+//   {
+//     title: "Sub-Reviewer — Journals",
+//     items: [
+//       "IEEE Transactions on Parallel and Distributed Systems",
+//       "IEEE Transactions on Computers",
+//       "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+//       "IEEE Transactions on Sustainable Computing",
+//       "IEEE Embedded Systems Letters",
+//       "ACM Transactions on Design Automation of Electronic Systems",
+//       "ACM Transactions on Embedded Computing Systems",
+//       "ACM Transactions on Sensor Networks",
+//     ],
+//   },
+//   {
+//     title: "Sub-Reviewer — Conferences",
+//     items: [
+//       "Euromicro Digital System Design Conference (DSD 2024)",
+//       "Asia and South Pacific Design Automation Conference (ASP-DAC 2024, ASP-DAC 2025)",
+//       "5th CPSSI International Symposium on Cyber-Physical Systems (CPSAT 2024)",
+//       "IEEE 14th International Symposium on Industrial Embedded Systems (SIES 2024)",
+//     ],
+//   },
+// ];
 
 const projects = [
   {
@@ -268,34 +293,61 @@ const projects = [
   },
 ];
 
-const teaching = [
+// const teaching = [
+//   {
+//     title: "Teaching Assistant — Graduate Courses",
+//     org: "Sharif University of Technology",
+//     items: [
+//       "Low Power System Design, Dr. Alireza Ejlali — Spring 2024, Spring 2026",
+//       "Fault-Tolerant System Design, Dr. Alireza Ejlali — Fall 2023, Fall 2024",
+//       "Cyber-Physical Systems, Dr. Mohsen Ansari — Fall 2023, Fall 2024, Fall 2025",
+//       "System-on-Chip Design, Dr. Mohsen Ansari — Spring 2024",
+//     ],
+//   },
+//   {
+//     title: "Teaching Assistant — Undergraduate Courses",
+//     org: "Sharif University of Technology",
+//     items: [
+//       "Digital Systems Design, Dr. Alireza Ejlali — Spring 2023, Spring 2024",
+//       "Embedded Systems, Dr. Mohsen Ansari — Years 2022–2026",
+//       "Real-Time Systems, Dr. Sepideh Safari — Years 2023–2026",
+//       "Digital Systems Design, Dr. Amin Foshati — Spring 2024",
+//     ],
+//   },
+//   {
+//     title: "Lab Instructor",
+//     org: "Sharif University of Technology",
+//     items: [
+//       "Digital Systems Design Lab, Dr. Alireza Ejlali — Spring 2024, Summer 2024",
+//       "Logic Circuits Lab, Dr. Mohsen Ansari — Spring, Summer, and Fall 2023–2024",
+//       "Logic Circuits Lab, Dr. Shaahin Hessabi — Summer 2024",
+//     ],
+//   },
+// ];
+
+const teachingAssistant = [
   {
-    title: "Teaching Assistant — Graduate Courses",
     org: "Sharif University of Technology",
     items: [
-      "Low Power System Design, Dr. Alireza Ejlali — Spring 2024, Spring 2026",
-      "Fault-Tolerant System Design, Dr. Alireza Ejlali — Fall 2023, Fall 2024",
-      "Cyber-Physical Systems, Dr. Mohsen Ansari — Fall 2023, Fall 2024, Fall 2025",
-      "System-on-Chip Design, Dr. Mohsen Ansari — Spring 2024",
+      "Low Power System Design (Dr. Alireza Ejlali)",
+      "Fault-Tolerant System Design (Dr. Alireza Ejlali)",
+      "Cyber-Physical Systems (Dr. Mohsen Ansari)",
+      "System-on-Chip Design (Dr. Mohsen Ansari)",
+      "Digital Systems Design (Dr. Alireza Ejlali)",
+      "Embedded Systems (Dr. Mohsen Ansari)",
+      "Real-Time Systems (Dr. Sepideh Safari)",
+      "Digital Systems Design (Dr. Amin Foshati)",
     ],
   },
+];
+
+const labInstructor = [
   {
-    title: "Teaching Assistant — Undergraduate Courses",
     org: "Sharif University of Technology",
     items: [
-      "Digital Systems Design, Dr. Alireza Ejlali — Spring 2023, Spring 2024",
-      "Embedded Systems, Dr. Mohsen Ansari — Years 2022–2026",
-      "Real-Time Systems, Dr. Sepideh Safari — Years 2023–2026",
-      "Digital Systems Design, Dr. Amin Foshati — Spring 2024",
-    ],
-  },
-  {
-    title: "Lab Instructor",
-    org: "Sharif University of Technology",
-    items: [
-      "Digital Systems Design Lab, Dr. Alireza Ejlali — Spring 2024, Summer 2024",
-      "Logic Circuits Lab, Dr. Mohsen Ansari — Spring, Summer, and Fall 2023–2024",
-      "Logic Circuits Lab, Dr. Shaahin Hessabi — Summer 2024",
+      "Digital Systems Design Lab (Dr. Alireza Ejlali)",
+      "Logic Circuits Lab (Dr. Mohsen Ansari)",
+      "Logic Circuits Lab (Dr. Shaahin Hessabi)",
     ],
   },
 ];
@@ -327,11 +379,10 @@ const honors = [
 
 const navItems = [
   { label: "About", href: "#about" },
-  { label: "Skills", href: "#skills" },
   { label: "Education", href: "#education" },
+  { label: "Skills", href: "#skills" },
   { label: "Experience", href: "#experience" },
   { label: "Publications", href: "#publications" },
-  { label: "Services", href: "#services" },
   { label: "Projects", href: "#projects" },
   { label: "Teaching", href: "#teaching" },
   { label: "Awards", href: "#awards" },
@@ -403,70 +454,98 @@ export default function AcademicHomepage() {
       </header>
 
       <main className="mx-auto max-w-6xl px-5">
-        <section className="py-16 md:py-24 grid md:grid-cols-[240px_1fr] gap-10 items-center">
-          <div className="flex md:block justify-center">
-            <div className="relative">
-              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-500 to-violet-600 blur-xl opacity-60" />
-              <img
-                src={profile.photo}
-                alt={profile.name}
-                className="relative w-44 h-44 md:w-56 md:h-56 rounded-full object-cover ring-4 ring-violet-400/40 shadow-2xl shadow-violet-950/50 border border-white/20"
-              />
-            </div>
-          </div>
-
-          <div>
-            <p className="inline-flex items-center gap-2 rounded-full border border-violet-400/30 bg-violet-500/10 px-4 py-2 text-sm text-violet-200 mb-5">
-              <Sparkles className="w-4 h-4" /> Academic Homepage
-            </p>
-            <h1 className="text-4xl md:text-6xl font-black tracking-tight text-white mb-5 leading-tight">
-              {profile.name}
-            </h1>
-            <p className="text-xl md:text-2xl text-blue-200 mb-4 font-semibold">{profile.title}</p>
-            <p className="text-base md:text-lg text-slate-300 max-w-3xl leading-8">{profile.affiliation}</p>
-
-            <div className="flex flex-wrap items-center gap-4 mt-6 text-sm text-slate-300">
-              <span className="inline-flex items-center gap-2"><Mail className="w-4 h-4 text-violet-300" /> {profile.email}</span>
-              <span className="inline-flex items-center gap-2"><MapPin className="w-4 h-4 text-blue-300" /> {profile.location}</span>
+        
+        <div className="py-12 md:py-20 grid lg:grid-cols-[1fr_400px] gap-8 items-start">
+          
+          <section className="grid sm:grid-cols-[150px_1fr] gap-6 items-center">
+            <div className="flex justify-center sm:block">
+              <div className="relative">
+                <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-500 to-violet-600 blur-xl opacity-60" />
+                <img
+                  src={profile.photo}
+                  alt={profile.name}
+                  className="relative w-36 h-36 rounded-full object-cover ring-4 ring-violet-400/40 shadow-2xl border border-white/20"
+                />
+              </div>
             </div>
 
-            <div className="flex flex-wrap gap-3 mt-8">
-              <a href={`mailto:${profile.email}`} className="inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-blue-600 to-violet-600 px-4 py-2 text-white shadow-lg shadow-violet-950/30 hover:scale-[1.02] transition-transform">
-                <Mail className="w-4 h-4" /> Email Me
-              </a>
-              <a href={profile.linkedin} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-2 text-slate-100 hover:border-violet-300/60 transition-colors">
-                <ExternalLink className="w-4 h-4" /> LinkedIn
-              </a>
-              <a href={profile.scholar} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-2 text-slate-100 hover:border-violet-300/60 transition-colors">
-                <GraduationCap className="w-4 h-4" /> Google Scholar
-              </a>
-              <a href={profile.github} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-2 text-slate-100 hover:border-violet-300/60 transition-colors">
-                <ExternalLink className="w-4 h-4" /> GitHub
-              </a>
-              <a href={profile.cv} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-2 text-slate-100 hover:border-violet-300/60 transition-colors">
-                <FileText className="w-4 h-4" /> CV
-              </a>
-            </div>
-          </div>
-        </section>
+            <div>
+              <p className="inline-flex items-center gap-2 rounded-full border border-violet-400/30 bg-violet-500/10 px-3 py-1 text-xs text-violet-200 mb-3">
+                <Sparkles className="w-3.5 h-3.5" /> Academic Homepage
+              </p>
+              <h1 className="text-3xl md:text-4xl font-black tracking-tight text-white mb-2 leading-tight">
+                {profile.name}
+              </h1>
+              <p className="text-base text-blue-200 mb-2 font-semibold leading-relaxed">{profile.title}</p>
+              <p className="text-sm text-slate-300 leading-relaxed max-w-2xl">{profile.affiliation}</p>
 
+              <div className="flex flex-wrap items-center gap-x-4 gap-y-1 mt-4 text-xs text-slate-400">
+                <span className="inline-flex items-center gap-1.5"><Mail className="w-3.5 h-3.5 text-violet-300" /> {profile.email}</span>
+                <span className="inline-flex items-center gap-1.5"><MapPin className="w-3.5 h-3.5 text-blue-300" /> {profile.location}</span>
+              </div>
+
+              <div className="flex flex-wrap gap-2 mt-5 text-xs">
+                <a href={`mailto:${profile.email}`} className="inline-flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-blue-600 to-violet-600 px-3 py-1.5 text-white shadow-md hover:scale-[1.02] transition-transform">
+                  <Mail className="w-3.5 h-3.5" /> Email
+                </a>
+                <a href={profile.linkedin} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 rounded-xl border border-white/10 bg-white/5 px-3 py-1.5 text-slate-200 hover:border-violet-300/60 transition-colors">
+                  <ExternalLink className="w-3.5 h-3.5" /> LinkedIn
+                </a>
+                <a href={profile.scholar} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 rounded-xl border border-white/10 bg-white/5 px-3 py-1.5 text-slate-200 hover:border-violet-300/60 transition-colors">
+                  <GraduationCap className="w-3.5 h-3.5" /> Scholar
+                </a>
+                <a href={profile.github} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 rounded-xl border border-white/10 bg-white/5 px-3 py-1.5 text-slate-200 hover:border-violet-300/60 transition-colors">
+                  <ExternalLink className="w-3.5 h-3.5" /> GitHub
+                </a>
+                <a href={profile.cv} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 rounded-xl border border-white/10 bg-white/5 px-3 py-1.5 text-slate-200 hover:border-violet-300/60 transition-colors">
+                  <FileText className="w-3.5 h-3.5" /> CV
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <section className="rounded-3xl border border-white/10 bg-slate-950/70 p-5 shadow-2xl backdrop-blur-md lg:h-[320px] flex flex-col">
+            <div className="flex items-center gap-2.5 mb-4 shrink-0">
+              <div className="p-1.5 rounded-xl bg-blue-500/20">
+                <Newspaper className="w-4 h-4 text-blue-200" />
+              </div>
+              <h2 className="text-lg font-bold text-white">🗞️ Latest News</h2>
+            </div>
+            <div className="space-y-4 overflow-y-auto pr-1 flex-1 scrollbar-thin scrollbar-thumb-slate-800 scrollbar-track-transparent">
+              {news.map((item, index) => (
+                <div key={index} className="border-b border-white/5 pb-3 last:border-0 last:pb-0">
+                  <div className="text-xs font-bold text-violet-400 mb-0.5">{item.date}</div>
+                  <div className="text-xs text-slate-300 leading-relaxed">{item.text}</div>
+                </div>
+              ))}
+            </div>
+          </section>
+
+        </div>
+        {/* ============================================================================== */}
+        {/*
         <section className="rounded-3xl border border-white/10 bg-slate-950/70 p-6 md:p-8 shadow-2xl shadow-black/20 mb-8">
-          <div className="flex items-center gap-3 mb-5">
+          <div className="flex items-center gap-3 mb-6">
             <div className="p-2 rounded-2xl bg-blue-500/20">
               <Newspaper className="w-5 h-5 text-blue-200" />
             </div>
-            <h2 className="text-xl font-bold text-white">🗞️ News</h2>
+            <h2 className="text-xl font-bold text-white">News</h2>
           </div>
-          <div className="space-y-4">
+          
+          <div className="space-y-5">
             {news.map((item, index) => (
-              <div key={index} className="grid md:grid-cols-[110px_1fr] gap-2 md:gap-4">
-                <div className="font-bold text-violet-300">{item.date}</div>
-                <div className="text-slate-300 leading-7">{item.text}</div>
+              <div key={index} className="flex flex-col gap-1 border-b border-white/5 pb-3 last:border-0 last:pb-0">
+                <span className="text-sm font-semibold text-violet-400 tracking-wide">
+                  {item.date}
+                </span>
+                <p className="text-slate-300 leading-relaxed text-[15px]">
+                  {item.text}
+                </p>
               </div>
             ))}
           </div>
         </section>
-
+        */}
         <Section id="about" icon={BookOpen} title="About" eyebrow="Profile">
           <Card>
             <div className="space-y-5 text-slate-300 leading-8 text-base md:text-lg">
@@ -478,19 +557,6 @@ export default function AcademicHomepage() {
               </div>
             </div>
           </Card>
-        </Section>
-
-        <Section id="skills" icon={Code2} title="Skills" eyebrow="Technical Stack">
-          <div className="grid md:grid-cols-2 gap-5">
-            {Object.entries(skills).map(([category, items]) => (
-              <Card key={category}>
-                <h3 className="font-bold text-white mb-4">⚙️ {category}</h3>
-                <div className="flex flex-wrap gap-2">
-                  {items.map((skill) => <Pill key={skill}>{skill}</Pill>)}
-                </div>
-              </Card>
-            ))}
-          </div>
         </Section>
 
         <Section id="education" icon={GraduationCap} title="Education" eyebrow="Academic Background">
@@ -513,28 +579,40 @@ export default function AcademicHomepage() {
           </div>
         </Section>
 
-        <Section id="experience" icon={Cpu} title="Research Experience" eyebrow="Research Labs">
-          <div className="space-y-5">
-            {researchExperience.map((item, index) => (
-              <Card key={index}>
-                <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
-                  <div>
-                    <h3 className="font-bold text-lg text-white">🔬 {item.role}</h3>
-                    <p className="text-slate-300 mt-1">{item.org}</p>
-                  </div>
-                  <span className="text-sm font-semibold text-violet-300">{item.period}</span>
+        <Section id="skills" icon={Code2} title="Skills" eyebrow="Technical Stack">
+          <div className="grid md:grid-cols-2 gap-5">
+            {Object.entries(skills).map(([category, items]) => (
+              <Card key={category}>
+                <h3 className="font-bold text-white mb-4">⚙️ {category}</h3>
+                <div className="flex flex-wrap gap-2">
+                  {items.map((skill) => <Pill key={skill}>{skill}</Pill>)}
                 </div>
-                <p className="text-slate-300 leading-7 mb-2">{item.supervisor}</p>
-                {item.focus && <p className="text-slate-300 leading-7 mb-4">{item.focus}</p>}
-                {item.bullets && (
-                  <ul className="space-y-3 list-disc pl-5 text-slate-300 leading-7">
-                    {item.bullets.map((bullet) => <li key={bullet}>{bullet}</li>)}
-                  </ul>
-                )}
-                {item.skills && <p className="text-slate-300 mt-4 leading-7"><span className="font-semibold text-white">Skills Acquired:</span> {item.skills}</p>}
               </Card>
             ))}
           </div>
+        </Section>
+
+<Section id="experience" icon={Cpu} title="Experience" eyebrow="Professional & Academic History">
+          <Card className="p-8 md:p-10 space-y-10">
+            {researchExperience.map((item, index) => (
+              <div key={index} className="border-b border-slate-800/60 pb-8 last:border-0 last:pb-0">
+                <h3 className="text-xl font-bold text-white tracking-tight">
+                  {item.role} — <span className="bg-gradient-to-r from-blue-400 to-violet-400 bg-clip-text text-transparent">{item.org}</span>
+                </h3>
+                                <p className="text-sm font-semibold text-violet-300 mt-1 mb-4">
+                  {item.lab}
+                </p>
+                
+                <ul className="space-y-2.5 list-disc pl-5 text-slate-300 text-[15px] leading-relaxed">
+                  {item.bullets.map((bullet, idx) => (
+                    <li key={idx} className="hover:text-white transition-colors pl-1">
+                      {bullet}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </Card>
         </Section>
 
         <Section id="publications" icon={FileText} title="Publications" eyebrow="Research Output">
@@ -549,6 +627,7 @@ export default function AcademicHomepage() {
           </div>
         </Section>
 
+        {/*
         <Section id="services" icon={ShieldCheck} title="Professional Services" eyebrow="Academic Service">
           <div className="grid md:grid-cols-3 gap-5">
             {professionalServices.map((group) => (
@@ -561,7 +640,7 @@ export default function AcademicHomepage() {
             ))}
           </div>
         </Section>
-
+        */}
         <Section id="projects" icon={Briefcase} title="Projects" eyebrow="Selected Work">
           <div className="grid md:grid-cols-2 gap-5">
             {projects.map((project, index) => (
@@ -577,6 +656,8 @@ export default function AcademicHomepage() {
           </div>
         </Section>
 
+
+        {/*
         <Section id="teaching" icon={Users} title="Teaching Assistant" eyebrow="Teaching Experience">
           <div className="grid md:grid-cols-3 gap-5">
             {teaching.map((group) => (
@@ -590,6 +671,37 @@ export default function AcademicHomepage() {
             ))}
           </div>
         </Section>
+        */}
+
+        {/* Teaching Experience Section */}
+        <Section id="teaching" icon={Users} title="Teaching Experience" eyebrow="Academic Contributions">
+          <div className="grid md:grid-cols-2 gap-6">
+            
+            {/* Teaching Assistant Card */}
+            <Card>
+              <h3 className="font-bold text-white text-lg mb-1">👨‍🏫 Teaching Assistant</h3>
+              <p className="text-violet-300 text-sm mb-4">{teachingAssistant[0].org}</p>
+              <ul className="space-y-3 list-disc pl-5 text-slate-300 leading-7">
+                {teachingAssistant[0].items.map((item) => (
+                  <li key={item} className="hover:text-white transition-colors">{item}</li>
+                ))}
+              </ul>
+            </Card>
+
+            {/* Lab Instructor Card */}
+            <Card>
+              <h3 className="font-bold text-white text-lg mb-1">🔬 Lab Instructor</h3>
+              <p className="text-violet-300 text-sm mb-4">{labInstructor[0].org}</p>
+              <ul className="space-y-3 list-disc pl-5 text-slate-300 leading-7">
+                {labInstructor[0].items.map((item) => (
+                  <li key={item} className="hover:text-white transition-colors">{item}</li>
+                ))}
+              </ul>
+            </Card>
+
+          </div>
+        </Section>
+
 
         <Section id="awards" icon={Award} title="Honors & Awards" eyebrow="Achievements">
           <Card>
@@ -598,6 +710,8 @@ export default function AcademicHomepage() {
             </ul>
           </Card>
         </Section>
+
+        
 
         {/* References section is intentionally disabled for the public version.
         <Section id="references" icon={Users} title="References" eyebrow="Academic References">
